@@ -1,0 +1,166 @@
+#title {
+    color: blue;
+    font-style: oblique;
+    font-size: 7rem;
+}
+button {
+    color: red;
+    font-size: 70px;
+    padding: 50px;
+    width: 140px;
+    height: 140px;
+    font-family: cursive;
+    background-color: yellow;
+    border-radius: 10%;
+    margin: 15px;
+}
+.drum {
+    text-align: center;
+    font-size: 0px;
+}
+.container {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 4rem;
+    color: black;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 black;
+    opacity: 0.5;
+}
+.a {
+    background-image: url("drum images/drum1.png");
+    background-position: center;
+    border: none;
+}
+.b {
+    background-image: url("drum images/drum2.png");
+    background-position: center;
+    border: none;
+}
+.c {
+    background-image: url("drum images/drum3.png");
+    background-position: center;
+    border: none;
+}
+.d {
+    background-image: url("drum images/drum4.png");
+    background-position: center center;
+    border: none;
+}
+.e {
+    background-image: url("drum images/drum5.png");
+    background-position: center;
+    border: none;
+}
+.f {
+    background-image: url("drum images/drum6.png");
+    background-position: center center;
+    border: none;
+}
+.g {
+    background-image: url("drum images/drum7.png");
+    background-position: center center;
+    border: none;
+}
+img {
+    border: none;
+    height: 110px;
+    border-radius: 10%;
+    background-position: center;
+}
+body {
+    background-size: auto;
+    background-color: orange;
+}
+.h {
+    background-color: white;
+}
+.i {
+    background-color: black;
+}
+.j {
+    background-color: white;
+}
+.k {
+    background-color: black;
+}
+.l {
+    background-color: white;
+}
+.m {
+    background-color: black;
+}
+.n {
+    background-color: white;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    #title {
+        font-size: 5rem;
+    }
+    button {
+        font-size: 50px;
+        padding: 30px;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    footer {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #title {
+        font-size: 4rem;
+    }
+    button {
+        font-size: 40px;
+        padding: 20px;
+        width: 80px;
+        height: 80px;
+        margin: 8px;
+    }
+    footer {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #title {
+        font-size: 3rem;
+    }
+    button {
+        font-size: 30px;
+        padding: 10px;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+    footer {
+        font-size: 1.5rem;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 black;
+    opacity: 0.5;
+    animation: blink 0.2s linear 3; /* Adjust timing and iteration as needed */
+}
+
